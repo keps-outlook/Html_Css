@@ -76,3 +76,72 @@ img {
     gap: 10px;
     margin: 15px;
 }
+
+
+
+
+/*********** media query ***********/
+
+@media screen and (max-width:1200px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+
+    .placeImg,
+    .placeImg2 {
+        width: 100%;
+    }
+
+    .content,
+    .contentR {
+        width: 100%;
+        letter-spacing: 3px;
+        line-height: 30px;
+        word-spacing: 5px;
+        margin: 10px;
+        font-size: 1.2rem;
+    }
+
+    .content p {
+        width: 80%;
+        letter-spacing: 3px;
+        line-height: 30px;
+        word-spacing: 5px;
+        margin: 20px;
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+    .contentR p {
+        width: 80%;
+        letter-spacing: 3px;
+        line-height: 30px;
+        word-spacing: 5px;
+        margin: 10px;
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+    .place1 {
+        flex-direction: column-reverse;
+    }
+
+    .place2 {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .cardTitle {
+        font-size: 1.2rem;
+    }
+
+    .allCards {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        max-width: 45%;
+        margin-top: 10px;
+    }
+}
