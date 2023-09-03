@@ -1,8 +1,33 @@
 @media screen and (max-width:1200px) {
-
-    h6,
-    h4,
-    h5 {
+    .fontS {
         font-size: 11px;
     }
+}
+
+/************ Home */
+
+.hnav {
+    height: 70px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hImgHeader {
+    top: 45%;
+    left: 5%;
+    color: white;
+}
+
+.hH1 {
+    font-size: 7rem;
+}
+
+.hH3 {
+    font-size: 2rem;
+}
+
+.tstDiv {
+    height: 70px;
 }
