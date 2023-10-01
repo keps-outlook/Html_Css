@@ -1,0 +1,89 @@
+:root {
+    --bg-color: #161414;
+    --primary-text-color: white;
+    --secondary-text-color: rgb(180, 176, 176);
+}
+
+body {
+    background-image: url('../img/lock.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    background-color: var(--bg-color);
+    height: 100vh;
+    color: var(--primary-text-color);
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+img {
+    width: 20px;
+    height: 20px;
+    box-shadow: 1px 1px 5px white;
+    color: white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+}
+
+h2 span {
+    color: var(--secondary-text-color);
+}
+
+
+.middleSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 15vh);
+
+}
+
+.inputSection {
+    margin-top: 50px;
+}
+
+.input {
+    background-color: #141212;
+    color: white;
+    padding: 15px;
+    border-radius: 35px;
+}
+
+.button {
+    position: relative;
+    left: -45px;
+    border-radius: 30px;
+    background-color: white;
+    padding: 15px;
+    width: 7em;
+}
+
+.req-psw-section {
+    margin-top: 20px;
+}
+
+p {
+    color: var(--secondary-text-color);
+}
+
+p a {
+    color: white;
+}
